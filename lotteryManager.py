@@ -2,7 +2,7 @@ from filesaver import *
 from lottery import *
 
 class LotteryManager:
-    def massLottery(src, iterations, startingNums=[4, 9, 15, 22, 31, 37, 48, 56, 63, 74]): 
+    def massLottery(src, iterations, api, startingNums=[4, 9, 15, 22, 31, 37, 48, 56, 63, 74]): 
         saver = FileSaver(src)
 
         lottery = Lottery(startingNums)
